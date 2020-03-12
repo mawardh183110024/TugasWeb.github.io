@@ -1,0 +1,100 @@
+.wrap{
+	background-color: #0010ff;
+	width: 900px;
+	margin: 10px auto;
+	border: 2px solid #000000;
+
+	
+}
+
+/*bagian header*/
+.wrap .header{
+	/*background: transparent;*/
+	background-color: #2590ED;
+	/*height: 50px;*/
+	font-family: arial;
+	padding: 4px 10px;
+	font-size: 30px;
+	font-style: italic;
+}
+
+/*akhir header*/
+
+/*bagian menu*/
+.wrap .menu{
+	background: transparent;
+
+}
+
+.wrap .menu ul{
+	padding: 10px;
+	margin: 1px;
+	background: transparent;
+	overflow: hidden;
+	background-color:lightgrey;
+	text-decoration: blink;
+	border: 2px solid #000000;
+}
+
+.wrap .menu ul li{
+	float: left;
+	list-style-type: none;
+	text-decoration: blink;
+	padding: 10px;
+	margin: 2px;
+	border: 2px solid #000000;
+}
+/*akhir menu*/
+
+.clear{
+	clear: both;
+}
+
+.badan{
+	height: 600px;
+}
+/*bagian sidebar*/
+.wrap .badan .sidebar{
+	background-color: #6495ED;
+	float: left;	
+	width: 24%;
+	height: 100%;
+	border: 2px solid #000000;
+	margin-left: 2px;
+}
+
+/*tengah sidebar*/
+
+.wrap .badan .content{
+	background-color: #2075A0;
+	float: left;
+	height: 100%;
+	width: 50%;	
+	text-align: left;
+	margin: left;
+	border: 2px solid #000000;
+	margin-left: 2px;
+}
+.wrap .badan .content b{
+	color:red;
+}
+ /*akhir sidebar*/
+ .wrap .badan .akhir{
+	background-color: #6495ED;
+	float: left;
+	height: 100%;
+	width: 24%;	
+	text-align: left;
+	margin: left;
+	border: 2px solid #000000;
+	margin-left: 1px;
+}
+body {
+	background-image: url(gmbr/back2.jpg);
+}
+.wrap .footer{
+	background-color: #87CEED;
+	width: 840px;
+	padding: 30px;
+	font-size:12px;
+}

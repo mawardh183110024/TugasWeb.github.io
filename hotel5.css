@@ -1,0 +1,83 @@
+.wrap{
+	background-color:#48d1dc;
+	width: 1150px;
+	margin: 10px auto;
+	border: 2px solid #000000;
+	
+}
+body {
+	background-image: url(gmbr/back2.jpg);
+}
+
+/*bagian header*/
+.wrap .header{
+	background: transparent;
+	/*height: 50px;*/
+	font-family: arial;
+	padding: 4px 10px;
+	font-size: 30px;
+	font-style: italic;
+	
+}
+
+
+/*bagian menu*/
+.wrap .menu{
+	background: transparent;
+
+}
+
+.wrap .menu ul{
+	padding: 0;
+	margin: ;
+	background: transparent;
+	overflow: hidden;
+	background-color:lightgrey;
+	text-decoration: blink;
+	text-align: left;
+}
+
+/*akhir menu*/
+
+
+
+.wrap .section.utama{
+	float: left;
+	width: 659px;
+	width: 1px solid #eeeeee;
+}
+article{
+	clear: both;
+	overflow: auto;
+	width: 100%
+}
+hgroup{
+	margin-top: 40px
+}
+figure{
+	float: left;
+	width: 290px;
+	height: 215px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee;
+}
+figcaption{
+	font-size: 90%;
+	text-align: left;
+}
+aside{
+	width: 230px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+aside section a{
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #eeeeee;
+	text-align: left;
+}
+ul {
+	text-align: center;
+	letter-spacing: 20px;
+}
